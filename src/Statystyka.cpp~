@@ -1,0 +1,13 @@
+#include <iostream>
+#include "Statystyka.hh"
+
+using namespace std;
+
+Statystyka Wynik = (PoprawneOdp/IloscWszystkichOdp)*100;
+
+void Podsumowanie(Statystyka)
+{
+  cout<<"Poprawne odpowiedzi: "<<PoprawneOdp<<endl;
+  cout<<"Bledne odpowiedzi: "<<IloscWszystkichOdp-PoprawneOdp<<endl;
+  cout<<"Wynik procentowy: "<<Wynik<<"%"<<endl;
+}

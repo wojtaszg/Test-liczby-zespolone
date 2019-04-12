@@ -1,0 +1,11 @@
+
+#include "BazaTestu.hh"
+
+
+struct Statystyka{
+   int PoprawneOdp;
+   int IloscWszystkichOdp;
+};
+//Statystyka unsigned int Wynik;
+
+void  WyswietlPodsumowanie (Statystyka stat);
